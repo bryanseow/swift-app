@@ -3,7 +3,7 @@
 //  Swift App
 //
 //  Created by Bryan Seow on 28/5/17.
-//  Copyright © 2017 oobadeedee. All rights reserved.
+//  Copyright © 2017 oobadeedee. All rights reserved. :)
 //
 
 import UIKit
