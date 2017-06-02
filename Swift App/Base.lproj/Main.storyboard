@@ -41,23 +41,49 @@
                                     <action selector="buttonChange:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DNr-AU-slx"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gv2-gF-rmm">
+                                <rect key="frame" x="138" y="231" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Xue-Ry-FBc"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mPZ-Uc-XPq">
+                                <rect key="frame" x="138" y="281" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="SuO-TI-HBG"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="u6a-j0-Nlp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2fE-hA-2Q9"/>
+                            <constraint firstItem="Gv2-gF-rmm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6IM-vH-dTU"/>
+                            <constraint firstItem="mPZ-Uc-XPq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Acd-ZE-Gq0"/>
                             <constraint firstItem="yCI-2w-xTQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JDy-A3-T9A"/>
+                            <constraint firstItem="mPZ-Uc-XPq" firstAttribute="top" secondItem="Gv2-gF-rmm" secondAttribute="bottom" constant="20" id="JGi-3Z-XNS"/>
                             <constraint firstItem="osK-zF-lXN" firstAttribute="top" secondItem="u6a-j0-Nlp" secondAttribute="bottom" constant="10" id="QlF-9e-69L"/>
+                            <constraint firstItem="Gv2-gF-rmm" firstAttribute="top" secondItem="osK-zF-lXN" secondAttribute="bottom" constant="20" id="TAu-DO-f0b"/>
+                            <constraint firstItem="Gv2-gF-rmm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZnC-O7-qgR"/>
                             <constraint firstItem="u6a-j0-Nlp" firstAttribute="top" secondItem="yCI-2w-xTQ" secondAttribute="bottom" constant="50" id="bLa-4V-urJ"/>
                             <constraint firstItem="osK-zF-lXN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="x4M-eW-xOL"/>
                             <constraint firstItem="yCI-2w-xTQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="yHo-IB-wgO"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="text1" destination="Gv2-gF-rmm" id="cBN-G7-pjS"/>
+                        <outlet property="text2" destination="mPZ-Uc-XPq" id="PwY-tc-jXN"/>
                         <outlet property="theLabel" destination="yCI-2w-xTQ" id="Ztr-kh-gu0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-429.60000000000002" y="-94.902548725637189"/>
         </scene>
     </scenes>
 </document>
